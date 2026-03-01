@@ -1,6 +1,6 @@
 displayName = Peter Alert
 author = patman
-version = 1.0
+version = 1.0.0.1
 side = Client
 buildIgnore = *.user, *.pdn, *.md, Properties/*
 homepage = https://github.com/patmanf/tmod-peter-alert
