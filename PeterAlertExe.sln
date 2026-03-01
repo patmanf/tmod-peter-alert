@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeterAlert", "PeterAlert.csproj", "{63974D61-4E4A-4DB2-839C-65473F5D9339}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeterAlertExe", "PeterAlertExe.csproj", "{63974D61-4E4A-4DB2-839C-65473F5D9339}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

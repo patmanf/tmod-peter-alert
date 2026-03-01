@@ -6,12 +6,12 @@ using Terraria.Audio;
 using Terraria.ModLoader;
 using Terraria.UI;
 
-namespace PeterAlert.UI;
+namespace PeterAlertExe.UI;
 
 public class Window : UIElement
 {
-    private static readonly Asset<Texture2D> Texture = ModContent.Request<Texture2D>("PeterAlert/UI/window", AssetRequestMode.ImmediateLoad);
-    private static readonly SoundStyle OpenSound = new("PeterAlert/Sounds/open");
+    private static readonly Asset<Texture2D> Texture = ModContent.Request<Texture2D>("PeterAlertExe/UI/window", AssetRequestMode.ImmediateLoad);
+    private static readonly SoundStyle OpenSound = new("PeterAlertExe/Sounds/open");
 
     public override void OnInitialize()
     {
@@ -32,8 +32,8 @@ public class Window : UIElement
     
     private class OkButton : UIElement
     {
-        private static readonly Asset<Texture2D> ButtonTexture = ModContent.Request<Texture2D>("PeterAlert/UI/button", AssetRequestMode.ImmediateLoad);
-        private static readonly SoundStyle ClickSound = new("PeterAlert/Sounds/click");
+        private static readonly Asset<Texture2D> ButtonTexture = ModContent.Request<Texture2D>("PeterAlertExe/UI/button", AssetRequestMode.ImmediateLoad);
+        private static readonly SoundStyle ClickSound = new("PeterAlertExe/Sounds/click");
         private bool _pressed;
     
         public override void OnInitialize()

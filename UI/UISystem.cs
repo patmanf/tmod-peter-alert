@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.UI;
 
-namespace PeterAlert.UI;
+namespace PeterAlertExe.UI;
 
 public class PeterSystem : ModSystem
 {
@@ -28,7 +28,7 @@ public class PeterSystem : ModSystem
     {
         int index = layers.FindIndex(layer => layer.Name.Equals("Vanilla: Cursor"));
         layers.Insert(index, new LegacyGameInterfaceLayer(
-            "PeterAlert",
+            "PeterAlert.exe",
             delegate
             {
                 _interface.Draw(Main.spriteBatch, new GameTime());
